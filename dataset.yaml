@@ -1,0 +1,10 @@
+# Dataset configuration
+path: ../data # dataset root dir
+train: images # train images (relative to 'path') 128 images
+val: images # val images (relative to 'path') 128 images
+# test: test_images # uncomment and specify if test images are available
+
+# Classes
+nc: 3 
+names: ['Focused', 'Sleepy', 'Not Focused']
+# names: ['Awake', 'Sleepy']
